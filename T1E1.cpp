@@ -6,9 +6,9 @@ int main(){
     int num1,num2,num3;
     cin>>num1>>num2>>num3;
 
-    int suma=(num1+num2+num3)/3;
+    int promedio=(num1+num2+num3)/3;
 
-    cout<< "El resultado de la suma es:" << suma;
+    cout<< "El resultado del promedio es:" << promedio;
 
     return  0;
 }
