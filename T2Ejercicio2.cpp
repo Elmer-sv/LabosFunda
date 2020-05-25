@@ -5,15 +5,14 @@
 using namespace std;
 
 int main(void){
-    int n,resultado;
+    int n;
     
     cout<< "Bienvenido"<<endl;
     cout<< "Ingrese el valor de n" <<endl;
     cin>>n;
 
-    resultado=2*n;
 
-    if (resultado=2*n)
+    if (n%2==0)
     {
 
         cout<< "El numero que ingreso es par"<< endl;
