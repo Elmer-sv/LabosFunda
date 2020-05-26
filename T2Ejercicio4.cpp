@@ -8,26 +8,15 @@ using namespace std;
 int main(void)
 {
     char palabra[40];
+    string l,p;
 
     cout<< "Ingrese la palabra que desee"<<endl;
     cin>> palabra;
 
-    
-    if (strlen(palabra)%2==0)
-    {
+    l= strlen(palabra)>10 ? "Es mayor que de 10" : "Es menor que 10";
+    p= strlen(palabra)%2==0 ? "Es par" : "Es impar";
 
-        cout<< "El numero de caracteres es " << strlen(palabra) << " y el numero de caracteres es par";
-
-    }
-
-    else if (strlen(palabra)==strlen(palabra))
-    {
-
-        cout<< "El numero de caracteres es " << strlen(palabra) << " y el numero de caracteres es impar";
-
-    }
-
-
+    cout<< "La palabra es " << l << " y " << p;
 
     return 0;
 
